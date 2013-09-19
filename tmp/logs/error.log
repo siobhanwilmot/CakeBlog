@@ -1,0 +1,9 @@
+2013-09-19 04:19:30 Error: [MissingControllerException] Controller class CommentsController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/comments
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
