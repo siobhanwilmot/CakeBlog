@@ -7,3 +7,110 @@ Request URL: /cakeblog/comments
 Stack Trace:
 #0 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-09-20 19:52:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(51): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-20 19:53:44 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/post
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-20 19:56:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(51): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-20 19:56:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(51): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-20 19:57:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(51): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-20 20:08:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(51): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-20 20:10:57 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(65): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-20 20:44:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'post_id' cannot be null
+Request URL: /cakeblog/comments/add
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cake\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1761): DboSource->create(Object(Comment), Array, Array)
+#4 C:\xampp\htdocs\cakeblog\Controller\CommentsController.php(51): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakeblog\webroot\index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

@@ -45,7 +45,7 @@ class CommentsController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($postId) {
 		if ($this->request->is('post')) {
 			$this->Comment->create();
 			if ($this->Comment->save($this->request->data)) {
@@ -57,6 +57,7 @@ class CommentsController extends AppController {
 		}
 		$posts = $this->Comment->Post->find('list');
 		$this->set(compact('posts'));
+		$this->set('post_id', $postId);
 	}
 
 /**
